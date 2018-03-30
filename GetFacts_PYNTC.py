@@ -14,3 +14,4 @@ device.open()
 output=device.facts
 
 print json.dumps(output, indent=4)
+device.close()
